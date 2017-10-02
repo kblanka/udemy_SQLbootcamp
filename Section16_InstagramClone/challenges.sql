@@ -40,7 +40,7 @@ GROUP BY tag_name
 ORDER BY occurence DESC
 LIMIT 5;
 
--- challenge 7:
+-- challenge 7: find the bots who likes every pic
 
 SELECT username, COUNT(*) AS num_likes
 FROM users
